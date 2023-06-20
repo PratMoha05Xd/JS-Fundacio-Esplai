@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Add Item</h2>
+            <button id="pushBtn">Push</button>
+            <button id="unshiftBtn">Unshift</button>
+            <input type="number" id="insertIndex" min="1" max="10" placeholder="Insert Index (1-10)" />
+            <button id="insertBtn">Insert At</button>
+        </div>
+
+        <div class="box">
+            <h2>Remove Item</h2>
+            <button id="popBtn">Pop</button>
+            <button id="shiftBtn">Shift</button>
+            <input type="number" id="removeIndex" min="1" max="10" placeholder="Remove Index (1-10)" />
+            <button id="removeBtn">Remove At</button>
+        </div>
+
+
+    </div>
+
+    <div id="output"></div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

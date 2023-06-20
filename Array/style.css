@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 1200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+input[type="number"] {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+#output {
+    margin-top: -15%;
+    margin-left: 20px;
+}

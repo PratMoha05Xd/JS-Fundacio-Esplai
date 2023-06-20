@@ -1,0 +1,48 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    position: relative;
+    width: 400px; 
+    height: 400px;
+  }
+  
+  .off {
+    position: relative;
+  }
+  
+  .off img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .boff {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .on {
+    position: relative;
+    margin-top: 30px;
+  }
+  
+  .on img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .bon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .on,
+.bon {
+  display: none;
+}
